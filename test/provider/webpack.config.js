@@ -1,6 +1,8 @@
 // const HtmlWebpackPlugin = require('html-webpack-plugin')
 // const path = require('path')
 
+const P = require('../../lib')
+
 module.exports = {
     mode: 'development',
     devtool: false,
@@ -20,6 +22,7 @@ module.exports = {
         inline: true
     },
     plugins: [
+        new P()
         // new HtmlWebpackPlugin({
         //     template: path.resolve(__dirname, 'src/index.html')
         // })
