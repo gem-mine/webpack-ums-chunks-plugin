@@ -1,0 +1,5 @@
+{
+  "title": "ChunkAsExternalPlugin",
+  "type": "object",
+  "additionalProperties": false
+}
